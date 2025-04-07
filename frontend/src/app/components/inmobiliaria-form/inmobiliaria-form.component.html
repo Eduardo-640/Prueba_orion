@@ -1,0 +1,28 @@
+<h2 mat-dialog-title>Agregar Nueva Inmobiliaria</h2>
+<mat-dialog-content>
+  <form #inmobiliariaForm="ngForm">
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>Nombre</mat-label>
+      <input matInput [(ngModel)]="data.name" name="name" required />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>Dirección</mat-label>
+      <input matInput [(ngModel)]="data.address" name="address" required />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>Latitud</mat-label>
+      <input matInput [(ngModel)]="data.latitude" name="latitude" required />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>Longitud</mat-label>
+      <input matInput [(ngModel)]="data.longitude" name="longitude" required />
+    </mat-form-field>
+  </form>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Cancelar</button>
+  <button mat-button color="primary" (click)="onSubmit()">Guardar</button>
+</mat-dialog-actions>

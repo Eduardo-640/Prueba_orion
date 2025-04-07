@@ -1,0 +1,52 @@
+{
+  "inmobiliarias": [
+    {
+      "name": "Inmobiliaria987",
+      "address": "Calle Falsa 123",
+      "latitude": "4.60971",
+      "longitude": "-74.08175"
+    },
+    {
+      "name": "prueba",
+      "address": "aaa",
+      "latitude": "35",
+      "longitude": "32"
+    },
+    {
+      "name": "Lanzarote",
+      "address": "calle San Mate",
+      "latitude": "90",
+      "longitude": "90"
+    },
+    {
+      "name": "Tecnico a cargo mal",
+      "address": "dfs",
+      "latitude": "7",
+      "longitude": "7"
+    },
+    {
+      "name": "jose",
+      "address": "calle San Mate",
+      "latitude": "11",
+      "longitude": "-50"
+    },
+    {
+      "name": "prueba 2",
+      "address": "princesa ico",
+      "latitude": "7",
+      "longitude": "-77"
+    },
+    {
+      "name": "prueba 3",
+      "address": "prueba",
+      "latitude": "-7",
+      "longitude": "43"
+    },
+    {
+      "name": "prueba 8",
+      "address": "calle oscura 3",
+      "latitude": "04",
+      "longitude": "22"
+    }
+  ]
+}

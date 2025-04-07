@@ -1,0 +1,44 @@
+{
+  "ventas": [
+    {
+      "mes": "Enero",
+      "cantidad_inmuebles": 12,
+      "total_venta": 2400000
+    },
+    {
+      "mes": "Febrero",
+      "cantidad_inmuebles": 9,
+      "total_venta": 1800000
+    },
+    {
+      "mes": "Marzo",
+      "cantidad_inmuebles": 15,
+      "total_venta": 3200000
+    },
+    {
+      "mes": "Abril",
+      "cantidad_inmuebles": 10,
+      "total_venta": 2100000
+    },
+    {
+      "mes": "Mayo",
+      "cantidad_inmuebles": 13,
+      "total_venta": 2750000
+    },
+    {
+      "mes": "Junio",
+      "cantidad_inmuebles": 11,
+      "total_venta": 2300000
+    },
+    {
+      "mes": "Julio",
+      "cantidad_inmuebles": 14,
+      "total_venta": 3000000
+    },
+    {
+      "mes": "Agosto",
+      "cantidad_inmuebles": 8,
+      "total_venta": 1650000
+    }
+  ]
+}

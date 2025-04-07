@@ -1,0 +1,44 @@
+<div>
+    <mat-tab-group>
+        <mat-tab label="Compra">
+            <mat-tab-group>
+            <mat-tab label="Proyectos">
+                <div id="map" style="height: 500px; width: 100%;"></div>
+                <div id="add">
+                    <button mat-fab (click)='openFormDialog()' aria-label="Example icon button with a delete icon">
+                        <mat-icon>add</mat-icon>
+                    </button>
+                </div>
+            </mat-tab>
+        </mat-tab-group>
+        </mat-tab>
+        <mat-tab label="Venta">
+            <mat-tab-group>
+                <mat-tab label="Estadisticas">
+                <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+    
+                    <ng-container matColumnDef="mes">
+                        <th mat-header-cell *matHeaderCellDef> Mes </th>
+                        <td mat-cell *matCellDef="let element"> {{element.mes}} </td>
+                    </ng-container>
+
+                    <ng-container matColumnDef="inmuebles">
+                        <th mat-header-cell *matHeaderCellDef> Cantidad Inmuebles </th>
+                        <td mat-cell *matCellDef="let element"> {{element.cantidad_inmuebles}} </td>
+                    </ng-container>
+
+                    <ng-container matColumnDef="venta">
+                        <th mat-header-cell *matHeaderCellDef> Total De Venta </th>
+                        <td mat-cell *matCellDef="let element"> {{element.total_venta}} </td>
+                    </ng-container>
+
+                    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                </table>
+                </mat-tab>
+            </mat-tab-group>
+        </mat-tab>
+
+    </mat-tab-group>
+
+</div>

@@ -1,0 +1,44 @@
+###
+GET http://localhost:4000/api/inmobiliaria
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQ0MDA5NzEyLCJleHAiOjE3NDQwOTYxMTJ9.RrOjikmm9RWNvIshw1_l_EHCS81PnonE2dhMtuegg1M
+
+###
+GET http://localhost:4000/api/inmobiliaria/Inmobiliaria123
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQ0MDA5NzEyLCJleHAiOjE3NDQwOTYxMTJ9.RrOjikmm9RWNvIshw1_l_EHCS81PnonE2dhMtuegg1M
+
+###
+POST http://localhost:4000/api/inmobiliaria
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQ0MDA5NzEyLCJleHAiOjE3NDQwOTYxMTJ9.RrOjikmm9RWNvIshw1_l_EHCS81PnonE2dhMtuegg1M
+Content-Type: application/json
+
+{
+  "name": "InmobiliariaXYZ",
+  "address": "Calle Falsa 123",
+  "latitude": 4.60971,
+  "longitude": -74.08175
+}
+
+###
+DELETE http://localhost:4000/api/inmobiliaria/InmobiliariaXYZ
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQ0MDA5NzEyLCJleHAiOjE3NDQwOTYxMTJ9.RrOjikmm9RWNvIshw1_l_EHCS81PnonE2dhMtuegg1M
+
+###
+GET http://localhost:4000/api/venta
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQ0MDA5NzEyLCJleHAiOjE3NDQwOTYxMTJ9.RrOjikmm9RWNvIshw1_l_EHCS81PnonE2dhMtuegg1M
+
+###
+POST http://localhost:4000/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "user",
+  "password": "user"
+}
+###
+POST http://localhost:4000/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "user",
+  "password": "user"
+}
